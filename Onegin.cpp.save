@@ -1,0 +1,78 @@
+#include <TXLib.h>
+#include <stdio.h>
+#include <math.h>
+
+const int SIZE_Y = 18;
+const int SIZE_X = 90;
+void ChangePlaceMaxLine(char* text, int limiter);
+
+int main(void)
+{
+    char text[SIZE_Y][SIZE_X] =    {"My uncle used to be so sound",
+                                    "But after falling gravely ill",
+                                    "Is craving homage, and has found",
+                                    "That could not make a better deal.",
+                                    "It is for others a good lesson,",
+                                    "But what a boredom is the session:",
+                                    "To watch a sick man day and night",
+                                    "And do not make a step aside!",
+                                    "What mean deceitfulness it is:",
+                                    "To feign compassion, dose the drugs,",
+                                    "To set and fluff the pillows, thus,",
+                                    "To entertain a half deceased,",
+                                    "To show fake sympathy, then, sigh",
+                                    "And think: Oh gosh, when will you die!",
+                                    "It was what a young rake expected,",
+                                    "When dusting post-chaise speeded him,",
+                                    "By Zeus’s supreme will elected",
+                                    "The only heir of all his kin."};
+
+    for (int i = 0; i < SIZE_Y; i++)
+    {
+        printf( "--%s \n", ((char *)text + i*SIZE_X));
+    }
+    printf("\n");
+
+    int limiter = SIZE_Y - 1;
+    while (limiter > 0)      //SIZE_Y - 1 раз отправляем max строчку в конец
+    {
+        ChangePlaceMaxLine((char *)text, limiter);
+        limiter--;
+    }
+
+    for (int i = 0; i < SIZE_Y; i++)
+    {
+        printf( "--%s \ n", ((char *)text + i*SIZE_X));
+    }
+
+    return 0;
+}
+
+
+
+void ChangePlaceMaxLine(char* text, int limiter)
+{
+    char temp = 'o';
+    for (int i = 0; i < limiter; i++)
+    {
+        for (int j = 0; j < SIZE_X; j++)
+        {
+            if (*(text + i * SIZE_X + j) < *(text + (i + 1) * SIZE_X + j ))
+            {
+                break;
+            }
+            if (*(text + i * SIZE_X + j) > *(text + (i + 1) * SIZE_X + j))     //меняет 2 отличающиеся строки местами
+            {
+                for (int k = j; k < SIZE_X; k++)
+                {
+                    temp = *(text + i * SIZE_X + k);                       //temp = text[i][k]
+                    *(text + i * SIZE_X + k) = *(text + (i+1) * SIZE_X + k);  //text[i][k] = text[i+1][k]
+                    *(text + (i+1) * SIZE_X + k) = temp;                   //text[i+1][k] = temp
+                }
+                break;
+            }
+        }
+    }
+}
+
+

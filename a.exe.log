@@ -1,0 +1,760 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041D17C. Попытка записать данные по адресу 0x00760000 в модуле C:\Users\KirillT\Desktop\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F52FC (32-bit), Flags: Cmdre0, Thread: 0x4E94 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:08:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:08:41
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7B8EF364. Попытка прочесть данные по адресу 0x7B8EF364. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F52FC (32-bit), Flags: Cmdre0, Thread: 0x4E94 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:08:24, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:08:41
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041D17C. Попытка записать данные по адресу 0x00760000 в модуле C:\Users\KirillT\Desktop\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F52FC (32-bit), Flags: Cmdre0, Thread: 0x10FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:17:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:17:37
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7B8EF364. Попытка прочесть данные по адресу 0x7B8EF364. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F52FC (32-bit), Flags: Cmdre0, Thread: 0x10FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:17:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:17:37
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041CEBA. Попытка записать данные по адресу 0x00760000 в модуле C:\Users\KirillT\Desktop\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x1770 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:20:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:20:18
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7B8EF364. Попытка прочесть данные по адресу 0x7B8EF364. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x1770 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:20:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:20:18
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041CAB3. Попытка записать данные по адресу 0x00760003 в модуле C:\Users\KirillT\Desktop\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x2D14 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:23:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:23:54
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7B8EF330. Попытка прочесть данные по адресу 0x7B8EF330. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x2D14 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:23:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:23:54
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0041CAB3. Попытка записать данные по адресу 0x00760003 в модуле C:\Users\KirillT\Desktop\a.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x4160 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:33:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:33:48
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#16: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7B8EF330. Попытка прочесть данные по адресу 0x7B8EF330. Дополнительно, превышен лимит исключений _TX_EXCEPTIONS_LIMIT (16). Также превышен лимит фатальных исключений _TX_FATAL_EXCEPTIONS_LIMIT (16). Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x4160 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:33:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:33:48
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x007854F6 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x3F5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:39:15, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:39:35
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x007854F6 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x3F5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:39:15, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:39:35
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00761DD4 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x321C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:40:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:41:13
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00761DD4 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x321C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:40:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:41:13
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0xBB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:42:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:42:25
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0xBB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:42:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:42:26
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x23C8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:43:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:43:21
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x23C8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:43:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:43:21
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x1624 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:44:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:44:44
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x00763D78 в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x1624 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:44:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:44:44
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x0076301C в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x137C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:46:05, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:46:23
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\KirillT\Desktop\a.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7552E6DE. Попытка прочесть данные по адресу 0x0076301C в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400], Instance: 0x004F42FC (32-bit), Flags: Cmdre0, Thread: 0x137C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 173, Date: 2024-06-23 22:37:05 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\kirillt\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 11 2024 01:46:05, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 11 2024 01:46:23
+
+Run file:	C:\Users\KirillT\Desktop\a.exe
+Directory:	C:\Users\KirillT\Desktop
+
+--------------------------------------------------
