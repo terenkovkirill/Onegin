@@ -2,8 +2,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include <stdlib.h>
+//#include <stdlib.h>
 #include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+
 
 enum Direct {
     SIZE_X = 90,
@@ -13,25 +16,91 @@ enum Direct {
     SIMPLE_ELEM = - 1000000,
 };
 
+struct TextData
+{
+    char** dinamic_text;
+    int count_str;
+};
+
+int CalculationLen(FILE *text_file);
+int CounterStrings(char* buffer, long file_len);
+void SetPointer(char** dinamic_text, char* buffer, long file_len, int count_str);
+struct TextData ReadingFile();
 void BubbleSort(char** dinamic_text, int count_str);
 void ChangePlaceMaxLine(char** dinamic_text, int limiter, int count_str);
 int CompareLetters(int dinamic_text_i_j, int dinamic_text_i1_j);
 void PrintText(char** dinamic_text, int count_str);
 
 
+
 int main()
+{
+    struct TextData news =  ReadingFile();
+
+    PrintText(news.dinamic_text, news.count_str);
+
+    printf("\n\n\n\n\n\n\n");
+
+    BubbleSort(news.dinamic_text, news.count_str);
+    //qsort(dinamic_text, count_str, sizeof(char *), strcmp);
+
+    PrintText(news.dinamic_text, news.count_str);
+
+
+    return 0;
+}
+
+
+
+struct TextData ReadingFile()               //считывает данные из файла и запихивает нужные значения в структуру
 {
     FILE *text_file = fopen("Onegin_text.txt", "rb");
     assert(text_file != NULL);
 
-    fseek(text_file, 0, SEEK_END);                //вычисляем длину файла
-    long file_len = ftell(text_file);
-    fseek(text_file, 0, SEEK_SET);
+    long file_len = CalculationLen(text_file);
 
     char* buffer = (char *)calloc(file_len, sizeof(char));
     fread(buffer, sizeof(char), file_len, text_file);           //считываем файл в Buffer
     fclose(text_file);
 
+    int count_str = CounterStrings(buffer, file_len);
+
+    char** dinamic_text = 0;                                     //адрес массива с указателями
+    dinamic_text = (char **)calloc(count_str + 1, sizeof(char*));
+    assert(dinamic_text != NULL);
+
+    *dinamic_text = buffer;
+
+    SetPointer(dinamic_text, buffer, file_len, count_str);
+
+    struct TextData knowledge;
+    knowledge.dinamic_text = dinamic_text;
+    knowledge.count_str = count_str;
+
+    return knowledge;
+}
+
+
+
+
+int CalculationLen(FILE *text_file)            //вычисляем длину файла
+{
+    struct stat file_data = {};
+    int fileDescriptor = fileno(text_file);
+    fstat(fileDescriptor, &file_data);
+    return file_data.st_size;
+
+    /*
+    fseek(text_file, 0, SEEK_END);
+    long file_len = ftell(text_file);
+    fseek(text_file, 0, SEEK_SET);
+    */
+}
+
+
+
+int CounterStrings(char* buffer, long file_len)
+{
     int count_str = 0;                          //считаем кол-во строк (\n)
     for(int i = 0; i < file_len - 1; i++)
     {
@@ -41,15 +110,15 @@ int main()
         }
     }
 
+    return count_str;
+}
 
-    char** dinamic_text = 0;
-    dinamic_text = (char **)calloc(count_str, sizeof(char*));
-    assert(dinamic_text != NULL);
 
-    *dinamic_text = buffer;
 
+void SetPointer(char** dinamic_text, char* buffer, long file_len, int count_str)
+{
     int num_ptr = 0;
-    for (int i = 0; i < file_len - 1; i++)
+    for (int i = 0; i < file_len - 1; i++)              //расставляем указатели на строки
     {
         assert(0 <= i && i < file_len);
         assert(0 <= i + 1 && i + 1 < file_len);
@@ -63,23 +132,12 @@ int main()
         {
             buffer[i] = '\0';
             num_ptr++;
+            assert(num_ptr < count_str + 1);
             *(dinamic_text + num_ptr) = buffer + i + 1;
         }
     }
-
-
-    PrintText((char **)dinamic_text, count_str);
-
-    printf("\n\n\n\n\n\n\n");
-
-    BubbleSort((char **)dinamic_text, count_str);
-    //qsort(dinamic_text, count_str, sizeof(char *), strcmp);
-
-    PrintText((char **)dinamic_text, count_str);
-
-
-    return 0;
 }
+
 
 
 
@@ -88,7 +146,7 @@ void BubbleSort(char** dinamic_text, int count_str)
     assert(dinamic_text != NULL);
 
     int limiter = count_str - 1;
-    while (limiter > 0)      //SIZE_Y - 1 раз отправляем max строчку в конец
+    while (limiter > 0)      //count_str - 1 раз отправляем max строчку в конец
     {
         ChangePlaceMaxLine(dinamic_text, limiter, count_str);
         limiter--;
@@ -165,6 +223,7 @@ void PrintText(char** dinamic_text, int count_str)
         printf("\n");
     }
 }
+
 
 /*
 char** dinamic_text = (char **)calloc(...)    //указатель на массив указателей
