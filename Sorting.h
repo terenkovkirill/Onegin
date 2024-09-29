@@ -3,7 +3,6 @@
 #include "Reading.h"
 
 enum Direct {
-    SIZE_X = 90,
     RIGHT_LOCATION = 1,
     INVALID_LOCATION = 2,
     BEGIN_STR = 1000000,
@@ -11,6 +10,6 @@ enum Direct {
 };
 
 void BubbleSort(char** dinamic_text, int count_str);
-int DirectComparator(char** dinamic_text, int j);
+int DirectComparator(char* str1, char* str2);
 int CompareLetters(int dinamic_text_i_j, int dinamic_text_i1_j);
 void PrintText(char** dinamic_text, int count_str);

@@ -1,6 +1,7 @@
 #include <TXLib.h>
 #include <stdio.h>
 #include <string.h>
+#include <assert.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 
@@ -8,9 +9,9 @@
 
 
 
-struct TextData ReadingFile()               //считывает данные из файла и запихивает нужные значения в структуру
+struct TextData ReadingFile(const char *file_name)               //  ReadFile считывает данные из файла и запихивает нужные значения в структуру
 {
-    FILE *text_file = fopen("Onegin_text.txt", "rb");
+    FILE *text_file = fopen(file_name, "rb");
     assert(text_file != NULL);
 
     long file_len = CalculationLen(text_file);
@@ -42,8 +43,8 @@ struct TextData ReadingFile()               //считывает данные и
 int CalculationLen(FILE *text_file)            //вычисляем длину файла
 {
     struct stat file_data = {};
-    int fileDescriptor = fileno(text_file);
-    fstat(fileDescriptor, &file_data);
+    int file_descriptor = fileno(text_file);           //GetFileSize
+    fstat(file_descriptor, &file_data);
     return file_data.st_size;
 
     /*

@@ -3,6 +3,7 @@
 #include <ctype.h>
 //#include <stdlib.h>
 #include <string.h>
+#include <assert.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 
@@ -10,19 +11,24 @@
 #include "Sorting.h"
 
 
-int main()
+int main(int argc, const char* argv[])
 {
-    struct TextData news =  ReadingFile();
+    if (argc != 2)
+    {
+        puts("Wrong number of elements.");
+        return 0;
+    }
 
-    PrintText(news.dinamic_text, news.count_str);
+    struct TextData data_fromfile =  ReadingFile(argv[1]);
+
+    PrintText(data_fromfile.dinamic_text, data_fromfile.count_str);
 
     printf("\n\n\n\n\n\n\n");
 
-    BubbleSort(news.dinamic_text, news.count_str);
+    BubbleSort(data_fromfile.dinamic_text, data_fromfile.count_str);
     //qsort(dinamic_text, count_str, sizeof(char *), strcmp);
 
-    PrintText(news.dinamic_text, news.count_str);
-
+    PrintText(data_fromfile.dinamic_text, data_fromfile.count_str);
 
     return 0;
 }
