@@ -13,3 +13,4 @@ void BubbleSort(char** dinamic_text, int count_str);
 int DirectComparator(char* str1, char* str2);
 int CompareLetters(int dinamic_text_i_j, int dinamic_text_i1_j);
 void PrintText(char** dinamic_text, int count_str);
+void WriteFile(char** dinamic_text, int count_str, const char* filename);

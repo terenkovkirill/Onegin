@@ -13,11 +13,14 @@
 
 int main(int argc, const char* argv[])
 {
-    if (argc != 2)
+    printf("%d", argc);
+    /*
+    if (argc != 3)
     {
         puts("Wrong number of elements.");
-        return 0;
+        assert(0);
     }
+    */
 
     struct TextData data_fromfile =  ReadingFile(argv[1]);
 
@@ -28,11 +31,10 @@ int main(int argc, const char* argv[])
     BubbleSort(data_fromfile.dinamic_text, data_fromfile.count_str);
     //qsort(dinamic_text, count_str, sizeof(char *), strcmp);
 
-    PrintText(data_fromfile.dinamic_text, data_fromfile.count_str);
+    WriteFile(data_fromfile.dinamic_text, data_fromfile.count_str, argv[2]);
 
     return 0;
 }
-
 
 
 
@@ -42,11 +44,24 @@ void PrintText(char** dinamic_text, int count_str)
 
     for (int i = 0; i < count_str; i++)
     {
-        printf("%s", dinamic_text[i]);
-        printf("\n");
+        printf("%s \n", dinamic_text[i]);
     }
 }
 
+void WriteFile(char** dinamic_text, int count_str, const char* filename)
+{
+    assert(dinamic_text != NULL);
+
+    FILE* fileptr = fopen(filename, "wb");
+
+    for (int i = 0; i < count_str; i++)
+    {
+        printf("%s \n", dinamic_text[i]);
+
+        size_t len_string = strlen(dinamic_text[i]);
+        fwrite(dinamic_text[i], sizeof(dinamic_text[i][0]), len_string, fileptr);       //fprinf();
+    }
+}
 
 /*
 char** dinamic_text = (char **)calloc(...)    //указатель на массив указателей

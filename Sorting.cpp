@@ -32,8 +32,6 @@ void BubbleSort(char** dinamic_text, int count_str)
 
 
 
-
-
 int DirectComparator(char* str1, char* str2)
 {
     int space1 = 0, space2 = 0;

@@ -30,11 +30,11 @@ struct TextData ReadingFile(const char *file_name)               //  ReadFile с
 
     SetPointer(dinamic_text, buffer, file_len, count_str);
 
-    struct TextData knowledge;
-    knowledge.dinamic_text = dinamic_text;
-    knowledge.count_str = count_str;
+    struct TextData data;
+    data.dinamic_text = dinamic_text;
+    data.count_str = count_str;
 
-    return knowledge;
+    return data;
 }
 
 
